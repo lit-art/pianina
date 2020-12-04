@@ -13,6 +13,7 @@ class Music(QLabel, object):  # тут музыкааа
     def __init__(self):
         super().__init__()
         self.setGeometry(1500, 700, 1500, 700)
+        self.move(220, 100)
         self.setWindowTitle('Piano')
 
         pixmap = QPixmap('pi')
